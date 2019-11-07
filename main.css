@@ -1,0 +1,114 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url("images/platter-2009590_1920.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+hr {
+    width: 50%;
+    height: 1px;
+    background: white;
+}
+
+/* Btn */
+
+.btn {
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid white !important;
+    transition: 1s;
+}
+
+.btn:hover {
+    color: black !important;
+    background: white;
+    border: 1px solid white !important;
+    transform: translateY(-2px);
+}
+
+/* Navbar */
+
+
+.nav-link {
+    padding: 20px !important;
+    color: black;
+}
+
+.nav-link:hover {
+    color: grey;
+}
+
+/* Card */
+
+.card {
+    border: none !important;
+    text-align: center;
+}
+
+.card-img-overlay {
+    padding: 50px !important;
+}
+
+.card-img {
+    filter: grayscale(70%);
+}
+
+.card-img:hover {
+    cursor: pointer;
+    filter: grayscale(0%);
+}
+
+/* Info container */
+
+.info-title {
+    color: rgb(255, 191, 95);
+}
+
+.image-container {
+ 
+}
+
+.info-image {
+    margin-left: 40px;
+    height: 350px;
+    width: 200px;
+}
+.info-container {
+    text-align: center;
+    padding: 100px;
+}
+
+.info-paragraph {
+    padding: 20px;
+}
+
+/* Book table */
+
+.book-table {
+    padding: 8px;
+    background: none;
+    border: 1px solid black;
+}
+
+.book-table:hover {
+    transform: translateY(2px);
+    background: rgb(255, 191, 95);
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 13px;
+}
